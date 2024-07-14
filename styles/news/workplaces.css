@@ -1,0 +1,171 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.workplaces__img {
+    width: 100%;
+    height: 419px;
+}
+
+.workplaces__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first__elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.workplaces__container {
+    margin-top: 55px;
+    width: 812px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.workplaces__h h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+}
+
+.workplaces__h h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    color: #0057FF;
+}
+
+.workplaces__typo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;
+    color: #000;
+}
+
+.workplaces__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16.8px;
+}
+
+.back__a {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    gap: 4px;
+    align-items: center;
+    color: #B8B8B8;
+}
+
+.span__link a{
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+    .workplaces__img {
+        height: 209px;
+    }
+
+    .workplaces__container {
+        width: 350px;
+        gap: 9px;
+        margin-top: 13px;
+    }
+
+    .workplaces__h {
+        width: 257px;
+    }
+
+    .workplaces__h h2 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+    .workplaces__h h3 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: -6px;
+    }
+
+    .workplaces__h span {
+        display: none;
+    }
+
+    .back__a {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .workplaces__container {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .workplaces__container {
+        width: 300px;
+    }
+}
+
+
+.workpalces_text__img {
+    display: flex;
+    flex-direction: row;
+    height: 348px;
+    gap: 30px;
+    margin: 31px 0;
+}
+
+.text__column {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 250px;
+}
+
+.img__column {
+    width: 530px;
+    height: 100%;
+}
+
+.img__column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text__p {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 16.8px;
+}
+
+@media screen and (max-width: 850px) {
+    .workpalces_text__img {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .text__column {
+        width: 100%;
+    }
+
+    .img__column {
+        width: 100%;
+    }
+}

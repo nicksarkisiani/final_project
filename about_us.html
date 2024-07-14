@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/nullstyle.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/about_us.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header__hover"></div>
+        <header class="header white_bg__header about_us__header">
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.png" alt="logo">
+            </a>
+            <div class="header__nav">
+                <a href="index.html" class="header__a">მთავარი</a>
+                <a href="portfolio.html" class="header__a">პორტფოლიო</a>
+                <a href="news.html" class="header__a">სიახლეები</a>
+                <a href="blog.html" class="header__a">ბლოგი</a>
+                <a href="about_us.html" class="header__a" id="a_active">ჩვენს შესახებ</a>
+                <a href="team.html" class="header__a">გუნდი</a>
+                <a href="career.html" class="header__a">კარიერა</a>
+                <a href="contact.html" class="header__a">კონტაქტი</a>
+                <select name="lang" class="header__select">
+                    <option selected>ქარ</option>
+                </select>
+            </div>
+
+            <div class="off-screen-menu">
+                <ul class="off-screen-menu__content">
+                    <li>
+                        <div class="header__logo">
+                            <img src="assets/whitelogo.png" alt="logo">
+                        </div>
+                    </li>
+                    <li><a href="index.html" class="header__a">მთავარი</a></li>
+                    <li><a href="portfolio.html" class="header__a">პორტფოლიო</a></li>
+                    <li><a href="news.html" class="header__a">სიახლეები</a></li>
+                    <li><a href="blog.html" class="header__a">ბლოგი</a></li>
+                    <li><a href="about_us.html" class="header__a" id="a_active">ჩვენს შესახებ</a></li>
+                    <li><a href="team.html" class="header__a">გუნდი</a></li>
+                    <li><a href="career.html" class="header__a">კარიერა</a></li>
+                    <li><a href="contact.html" class="header__a">კონტაქტი</a></li>
+                    <li>
+                        <select name="lang" class="header__select">
+                            <option selected>ქარ</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="blur-overlay" class="display__none">
+
+            </div>
+
+            <div class="ham-menu white_header__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <div class="main first__elem">
+            <div class="gaaholding ">
+                <div class="gaaholding__container">
+                    <div class="gaaholding__typo">
+                        <div class="underline__h gaaholding__h">
+                            <h2 class="title__h2">ჩვენს შესახებ</h2>
+                            <span></span>
+                        </div>
+                        <p>ჩვენ ვართ პირველი სრული სარეკლამო მომსახურების პორტალი 30 წლიანი გამოცდილება სარეკლამო ბიზნესში სადაც მომსახურებას იღებ ერთი ფანჯრის პრინციპით</p>
+                    </div>
+
+                    <div class="gaaholding__logo">
+                        <img src="assets/gaaholding.png" alt="gaaholding">
+                    </div>
+                </div>
+            </div>
+
+            <div class="work_location">
+                <div class="work_location__container">
+                    <div class="underline__h work_location__title">
+                        <h2 class="title__h2">რეგიონალური მომსახურება</h2>
+                        <span></span>
+                    </div>
+
+                    <div class="work_location__map">
+                        <div class="work_location__img">
+                            <img src="assets/map05.png" alt="map">
+                        </div>
+
+                        <div class="work_location__typo">
+                            <p>საქართველოს გარდა ჩვენ დაგეხმარებით მიიღოთ მომსახურება რეგიონალური მასშტაბით</p>
+                            <ul class="disc__ul">
+                                <li>კავკასია</li>
+                                <li>ცენტრალური აზია</li>
+                                <li>აღმოსავლეთ ევროპა</li>
+                                <li>ახლო აღმოსავლეთი</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="strategy">
+                <div class="strategy__container">
+                    <div class="underline__h strategy__title">
+                        <h2 class="title__h2">როგორ უნდა ვიმუშაოთ ერთად?</h2>
+                        <span></span>
+                    </div>
+
+                    <div>
+                        <div class="strategy_principe">
+                            <div class="white__box">
+                                <h3>ერთი ფანჯრის პრინციპი</h3>
+                            </div>
+                            <svg width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_103_642)">
+                                    <path d="M0.344727 0.541612L7.16895 6.65272L13.6554 0.347168" stroke="#575757"
+                                        stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_103_642">
+                                        <rect width="14" height="7" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div class="white__box">
+                                <h3>მომხმარებელი</h3>
+                            </div>
+                            <svg width="14" height="7" viewBox="0 0 14 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_103_642)">
+                                    <path d="M0.344727 0.541612L7.16895 6.65272L13.6554 0.347168" stroke="#575757"
+                                        stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_103_642">
+                                        <rect width="14" height="7" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <div class="white__box">
+                                <h3>პროექტის მენეჯერი</h3>
+                            </div>
+                        </div>
+
+                        <div class="strategy_partners">
+                            <div class="strategy__svg">
+                                <svg width="661" height="94" viewBox="0 0 661 94" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_633)">
+                                        <path
+                                            d="M332.308 12.6211C332.308 22.108 324.553 29.7952 314.981 29.7952H17.7115C8.14024 29.7952 0.384766 37.4824 0.384766 46.9693V75.4377"
+                                            stroke="#565656" stroke-width="0.5" stroke-miterlimit="10" />
+                                        <path
+                                            d="M332.308 12.6211C332.308 22.108 339.979 29.7952 349.442 29.7952H643.473C652.937 29.7952 660.608 37.4824 660.608 46.9693V75.4377"
+                                            stroke="#565656" stroke-width="0.5" stroke-miterlimit="10" />
+                                        <path
+                                            d="M332.339 5.42236V26.44C332.339 36.7964 323.868 45.1928 313.42 45.1928H152.471C142.022 45.1928 133.551 53.5892 133.551 63.9455V83.1558"
+                                            stroke="#565656" stroke-width="0.5" stroke-miterlimit="10" />
+                                        <path
+                                            d="M332.339 5.42236V26.44C332.339 36.7964 340.81 45.1928 351.258 45.1928H512.207C522.656 45.1928 531.127 53.5892 531.127 63.9455V83.1558"
+                                            stroke="#575757" stroke-width="0.5" stroke-miterlimit="10" />
+                                        <path
+                                            d="M332.354 0V42.9353C332.354 52.1705 324.799 59.6594 315.482 59.6594H278.097C268.78 59.6594 261.224 67.1483 261.224 76.3836V94.0076"
+                                            stroke="#575757" stroke-width="0.5" stroke-miterlimit="10" />
+                                        <path
+                                            d="M332.47 0V42.9353C332.47 52.1705 340.025 59.6594 349.342 59.6594H386.727C396.045 59.6594 403.6 67.1483 403.6 76.3836V94.0076"
+                                            stroke="#565656" stroke-width="0.5" stroke-miterlimit="10" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_633">
+                                            <rect width="661" height="94" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+
+                            <div class="strategy_partners__content">
+                                <div>
+                                    <img src="assets/logos/mccan.png" alt="mccan" class="strategy__mccan">
+                                </div>
+                                <div>
+                                    <img src="assets/logos/um.png" alt="um" class="strategy__um">
+                                </div>
+                                <div>
+                                    <img src="assets/logos/kedi.png" alt="kedi" class="strategy__kedi">
+                                </div>
+                                <div>
+                                    <img src="assets/logos/initiative.png" alt="initiative"
+                                        class="strategy__initiative">
+                                </div>
+                                <div>
+                                    <img src="assets/logos/stv.png" alt="stv" class="strategy__stv">
+                                </div>
+                                <div>
+                                    <img src="assets/logos/adssprint.png" alt="adssprint" class="strategy__adssprint">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="superiorities">
+                <div class="superiorities__container">
+                    <div class="underline__h superiorities__h">
+                        <h2 class="title__h2">უპირატესობები</h2>
+                        <span></span>
+                    </div>
+
+                    <div class="superiorities__list">
+                        <div class="list__box">
+                            <div class="list__box__svg">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_672)">
+                                        <path
+                                            d="M25.8802 52C17.825 52 9.7498 52 1.69458 52C0.338757 52 -0.0201391 51.6412 -0.000200427 50.2859C0.0396769 40.5995 6.61943 31.5707 15.8111 28.5213C18.4431 27.6443 21.1148 27.2058 23.8664 27.2257C26.0796 27.2457 28.3127 27.2058 30.5059 27.3453C35.1516 27.6443 39.3188 29.3185 42.9676 32.1886C47.7728 35.9755 50.6839 40.9183 51.7207 46.9375C51.92 48.0736 51.94 49.2495 51.9998 50.4254C52.0397 51.5216 51.5213 52 50.4247 52C42.2498 52 34.055 52 25.8802 52Z"
+                                            fill="white" />
+                                        <path
+                                            d="M38.4019 12.3572C38.4218 19.1537 32.8589 24.7543 26.0399 24.7742C19.181 24.7742 13.6181 19.2534 13.5982 12.3971C13.5783 5.60061 19.1212 0 25.9003 0C32.839 0 38.3819 5.4611 38.4019 12.3572Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_672">
+                                            <rect width="52" height="52" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <p>ერთი საკონტაქტო პირი რომელიც გაწვდით სრულ მომსახურებას ნებისმიერი მიმართულებით
+                            </p>
+                        </div>
+                        <div class="list__box">
+                            <div class="list__box__svg">
+                                <svg width="80" height="51" viewBox="0 0 80 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_675)">
+                                        <path
+                                            d="M39.9589 51.0005C33.678 51.0005 27.4134 51.0005 21.1325 51.0005C19.3169 51.0005 19.0061 50.6897 19.0388 48.8741C19.2188 39.6817 25.8595 31.4053 34.8393 29.2135C46.6651 26.3348 58.2292 33.6625 60.6336 45.6028C60.879 46.7969 60.9935 48.0072 61.0425 49.2176C61.0916 50.4607 60.4864 50.9841 59.2269 50.9841C52.7988 50.9841 46.3707 50.9841 39.9425 50.9841L39.9589 51.0005Z"
+                                            fill="white" />
+                                        <path
+                                            d="M52.8483 13.282C52.8483 20.1027 46.9599 25.942 40.0084 25.9584C33.0078 25.9911 27.1357 20.1354 27.1357 13.1348C27.1685 5.88887 32.7297 0.294922 39.9757 0.294922C47.287 0.294922 52.8319 5.87251 52.8483 13.282Z"
+                                            fill="white" />
+                                        <path
+                                            d="M74.3079 20.3809C74.3079 25.5168 70.0715 29.7205 64.9192 29.7205C59.8159 29.7205 55.5632 25.4841 55.5469 20.4299C55.5469 15.0323 59.5706 10.9922 64.9519 10.9922C70.2841 10.9922 74.3079 15.0323 74.3079 20.3809Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15.0971 10.9922C20.4621 10.9922 24.4858 15.065 24.4531 20.479C24.4367 25.5168 20.1513 29.7368 15.048 29.7205C9.89572 29.7205 5.65937 25.4678 5.69208 20.3481C5.7248 14.9995 9.74851 10.9922 15.0971 11.0085V10.9922Z"
+                                            fill="white" />
+                                        <path
+                                            d="M57.3298 32.6973C62.8584 29.9003 68.1742 29.884 73.2611 33.2371C77.6283 36.0995 79.8528 40.2868 80 45.5372C80.0328 46.6004 79.493 47.222 78.4789 47.222C73.6046 47.2383 68.7304 47.222 63.7253 47.222C63.2346 41.7261 61.1573 36.901 57.3135 32.6973H57.3298Z"
+                                            fill="white" />
+                                        <path
+                                            d="M22.6539 32.7136C18.8755 36.8681 16.7655 41.6442 16.2911 47.1728C15.9477 47.1728 15.6532 47.2055 15.3752 47.2055C10.9098 47.2055 6.46085 47.2055 1.9955 47.2055C0.474341 47.2218 0 46.7475 0 45.2754C0 38.7982 4.84155 32.8608 11.4332 31.176C15.3261 30.1783 19.0227 30.6526 22.6539 32.7299V32.7136Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_675">
+                                            <rect width="80" height="50.7054" fill="white"
+                                                transform="translate(0 0.294922)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <p>თქვენთვის გამოყოფილი გუნდი რომელიც მუშაოს თქვენთვის</p>
+                        </div>
+                        <div class="list__box">
+                            <div class="list__box__svg">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_683)">
+                                        <path
+                                            d="M41.3099 6.07695C37.8374 2.96656 33.7172 1.13269 29.1293 0.323625C28.3556 0.179791 27.5639 0.107875 26.7723 0H23.2638C22.3822 0.125854 21.5006 0.233729 20.619 0.395541C15.3833 1.33046 10.9213 3.72168 7.19691 7.4973C3.65247 11.0572 1.40346 15.3182 0.449876 20.2625C0.287948 21.0895 0.215979 21.9346 0.108027 22.7616C0.0900347 22.9234 0.0360585 23.0852 0.0180664 23.2291V26.735C0.144011 27.616 0.251963 28.4969 0.413892 29.3779C1.34948 34.5559 3.70644 38.9968 7.4308 42.7005C10.9213 46.1704 15.0774 48.4718 19.8993 49.4426C27.402 50.9349 34.293 49.3887 40.3563 44.6962C45.5021 40.7228 48.7226 35.4729 49.6942 29.0543C51.0796 19.9389 48.2189 12.2258 41.3279 6.05897L41.3099 6.07695ZM37.1717 37.5764C36.452 38.6552 34.9587 38.835 33.9871 37.936C33.4474 37.4326 32.9436 36.9112 32.4398 36.3898C29.5431 33.4951 26.6463 30.5825 23.7316 27.7059C23.1919 27.1665 22.94 26.5732 22.94 25.8001C22.94 21.3772 22.94 16.9543 22.94 12.5315C22.94 11.6325 23.3718 10.9853 24.1814 10.6077C24.9371 10.2661 25.8367 10.4459 26.4304 11.0212C26.8623 11.4347 27.0602 11.9561 27.0602 12.5494C27.0602 14.5811 27.0602 16.6127 27.0602 18.6444C27.0602 20.658 27.0602 22.6717 27.0602 24.6854C27.0602 25.027 27.1501 25.2607 27.402 25.4944C30.5326 28.6048 33.6453 31.7152 36.7579 34.8436C37.6035 35.6886 37.7475 36.6954 37.1717 37.5764Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_683">
+                                            <rect width="50" height="50" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <p>ზოგავთ დროს</p>
+                        </div>
+                        <div class="list__box">
+                            <div class="list__box__svg">
+                                <svg width="46" height="50" viewBox="0 0 46 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_685)">
+                                        <path
+                                            d="M45.5321 23.2488H44.8948C41.4486 23.2488 38.0024 23.2488 34.5563 23.2488C31.4405 23.2488 28.8913 25.2704 28.2068 28.2793C28.0888 28.7495 28.0652 29.2431 28.0416 29.7368C28.0416 31.2177 28.0416 32.6752 28.0416 34.1561C28.0416 37.8468 30.874 40.6677 34.5799 40.6912C38.2149 40.6912 41.8263 40.6912 45.5557 40.6912C45.5557 41.2318 45.5793 41.749 45.5557 42.2662C45.4849 43.3475 45.5557 44.4758 45.2488 45.4867C44.4699 48.2605 42.0387 49.9766 38.9938 50.0001C28.2068 50.0001 17.4198 50.0236 6.60922 50.0001C3.16305 50.0001 0.70824 47.8609 0.0945387 44.4994C0.0237269 44.1232 0.0237269 43.7471 0.0237269 43.371C0.0237269 35.8252 0.0945387 28.2558 0.000122999 20.71C-0.0470848 17.1839 2.64376 13.9164 6.77445 13.9634C13.1947 14.0104 19.615 13.9634 26.0352 13.9634C30.3076 13.9634 34.5563 13.9634 38.8286 13.9634C41.661 13.9634 43.7854 15.1858 44.9656 17.7716C45.3196 18.5238 45.4377 19.3936 45.5085 20.2398C45.6029 21.2036 45.5085 22.1909 45.5085 23.2723L45.5321 23.2488Z"
+                                            fill="white" />
+                                        <path
+                                            d="M45.5082 26.7515V37.2122H44.9889C41.5191 37.2122 38.073 37.2122 34.6032 37.2122C32.7385 37.2122 31.5347 36.0133 31.5347 34.1563C31.5347 32.6753 31.5347 31.1708 31.5347 29.6899C31.5347 28.0209 32.7857 26.775 34.4616 26.7515C38.1202 26.7515 41.7788 26.7515 45.5082 26.7515ZM35.6418 29.6664C34.3435 29.6664 33.305 30.6772 33.2814 31.9701C33.2814 33.216 34.3199 34.2738 35.5709 34.2738C36.8928 34.2738 37.9077 33.31 37.9313 32.0171C37.9313 30.7242 36.94 29.6899 35.6418 29.6899V29.6664Z"
+                                            fill="white" />
+                                        <path
+                                            d="M8.00163 11.6363C8.80416 9.94374 9.53589 8.36875 10.2676 6.79376C10.7869 5.68892 11.3062 4.56057 11.8491 3.45573C12.3448 2.3979 13.2889 2.04529 14.3275 2.53894C19.2135 4.79564 24.0759 7.05234 28.9619 9.33255C29.788 9.70866 30.1893 10.4844 30.0005 11.2837C29.9533 11.4247 29.7408 11.5422 29.5756 11.6363C29.5048 11.6833 29.3632 11.6363 29.2452 11.6363C22.4 11.6363 15.5313 11.6363 8.68614 11.6363C8.49731 11.6363 8.28488 11.6363 7.97803 11.6363H8.00163Z"
+                                            fill="white" />
+                                        <path
+                                            d="M32.3373 11.589C32.5026 9.40281 31.5584 7.94536 29.5993 7.07559C27.3333 6.06478 25.1145 5.00695 22.8722 3.94912C22.6833 3.8551 22.5181 3.78457 22.3057 3.66704C22.7541 2.70324 23.179 1.76295 23.6511 0.846163C24.076 0.0469156 25.0437 -0.235172 25.9407 0.164452C28.3247 1.26929 30.7087 2.37414 33.1163 3.50249C35.5475 4.63084 38.0023 5.75919 40.4335 6.91104C41.7081 7.49872 42.0149 8.392 41.4248 9.6614C41.1652 10.2256 40.9056 10.8133 40.5987 11.3774C40.5279 11.5185 40.3391 11.683 40.1974 11.683C37.6718 11.683 35.1226 11.6595 32.597 11.636C32.5262 11.636 32.4553 11.636 32.3373 11.589Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_685">
+                                            <rect width="45.5556" height="50" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <p>ზოგავთ ფულს</p>
+                        </div>
+                        <div class="list__box last_list__box">
+                            <div class="list__box__svg">
+                                <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_718)">
+                                        <path
+                                            d="M22.56 45.22C10.12 45.21 0 35.04 0 22.56C0 10.12 10.18 0 22.66 0C35.14 0 45.25 10.2 45.22 22.74C45.19 35.11 35 45.22 22.56 45.21V45.22ZM19.22 26.48C17.12 24.55 15.23 22.82 13.35 21.09C12.75 20.54 12.1 20.1 11.23 20.23C10.34 20.36 9.68 20.84 9.43 21.71C9.15 22.66 9.39 23.51 10.14 24.19C12.56 26.38 14.96 28.59 17.39 30.78C18.77 32.02 19.82 31.99 21.14 30.68C24.77 27.07 28.4 23.46 32.03 19.86C33.11 18.78 34.23 17.73 35.27 16.62C36.54 15.26 35.82 13.17 34 12.81C33.06 12.63 32.38 13.1 31.75 13.73C27.78 17.71 23.81 21.68 19.84 25.65C19.62 25.88 19.46 26.17 19.23 26.49L19.22 26.48Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_718">
+                                            <rect width="45.22" height="45.22" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <p>იღებთ გამჭვირვალე მომსახურებას</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="services">
+                <div class="underline__h services__h">
+                    <h2 class="title__h2">სააგენტოს მომსახურებები</h2>
+                    <span></span>
+                </div>
+                <div class="service__boxes">
+                    <div class="service__box">
+                        <div class="mccan__div">
+                            <img src="assets/logos/mccan.png" alt="mccan" class="mccan">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>ბრენდის სტრატეგია</li>
+                            <li>ბრენდ პლატფორმა</li>
+                            <li>დიზაინი</li>
+                            <li>ბრენდინგი</li>
+                            <li>კრეატიიული კონცეფციები და გადაწყვეტები</li>
+                            <li>ვიდეო რგოლების გადაღება</li>
+                            <li>ადაპტაცია</li>
+                            <li>კლიენტ სერვისი</li>
+                            <li>ფინანსური და იურიდიული კონსულტაცია</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                        stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                            <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                                <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="service__box">
+                        <div class="um__div">
+                            <img src="assets/logos/um.png" alt="um" class="um">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>მედია სტრატეგია</li>
+                            <li>მედია გეგმარება</li>
+                            <li>მედია შესყიდვა</li>
+                            <li>ანალიტიკა და ექსპერტიზა</li>
+                            <li>მედია კონსულტაცია</li>
+                            <li>ფინანსური და იურიდიული კონსულტაცია</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                            <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="service__box">
+                        <div class="kedi__div">
+                            <img src="assets/logos/kedi.png" alt="kedi" class="kedi">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>მედია სტრატეგია</li>
+                            <li>მედია გეგმარება</li>
+                            <li>მედია შესყიდვა</li>
+                            <li>ანალიტიკა და ექსპერტიზა</li>
+                            <li>მედია კონსულტაცია</li>
+                            <li>ფინანსური და იურიდიული კონსულტაცია</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                            <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="service__box">
+                        <div class="adssprint__div">
+                            <img src="assets/logos/adssprint.png" alt="adssprint" class="adssprint">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>ფართოფორმატიანი ბეჭდვა</li>
+                            <li>ციფრული ბეჭდვა</li>
+                            <li>თერმული ბეჭდვა</li>
+                            <li>UV ბეჭდვა</li>
+                            <li>ტექსტილზე ბეჭდვა</li>
+                            <li>გარე რეკლამის საწარმო</li>
+                            <li>მანქანის გაფორმება</li>
+                            <li>სარეკლამო აქსესუარები</li>
+                            <li>სამონტაჟე სამუშაოები</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                            <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="service__box">
+                        <div class="stv__div">
+                            <img src="assets/logos/stv.png" alt="stv" class="stv">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>ვებსაიტების და აპლიკაციების დეველოპმენტი და მხარდაჭერა</li>
+                            <li>UI/UX დიზაინი</li>
+                            <li>აუდიო/ვიდეო წარმოება</li>
+                            <li>SEO ოპტიმიზაცია</li>
+                            <li>კრეატიული ქონთენთის შექმნა</li>
+                            <li>E-MAIL მარკეტინგი</li>
+                            <li>სოციალური მედიის მართვა (Facebook, Instagram, Linkdn..)</li>
+                            <li>სტრატეგიული კონტენტის დაგეგმარება</li>
+                            <li>ციფრული რეკლამა</li>
+                            <li>მხარდაჭერა</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                            <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="service__box">
+                        <div class="initiative__div">
+                            <img src="assets/logos/initiative.png" alt="initiative" class="initiative">
+                        </div>
+                        <ul class="disc__ul service__box__ul">
+                            <li>მედია სტრატეგია</li>
+                            <li>მედია გეგმარება</li>
+                            <li>მედია შესყიდვა</li>
+                            <li>ანალიტიკა და ექსპერტიზა</li>
+                            <li>მედია კონსულტაცია</li>
+                        </ul>
+                        <button class="service__btn">
+                            <span class="service__btn__span">See Less <svg width="9" height="5" viewBox="0 0 9 5"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 4L5.33029 1.57707C4.96456 1.24515 4.41128 1.22994 4.02787 1.54128L1 4"
+                                    stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <svg width="21" height="10" viewBox="0 0 21 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="service__btn__svg">
+                            <path d="M1 1L9.17897 8.42293C9.5447 8.75485 10.098 8.77006 10.4814 8.45872L19.6667 1"
+                                stroke="#A7A7A7" stroke-width="0.7" stroke-linecap="round" />
+                        </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__about">
+                    <div class="header__logo about__logo">
+                        <img src="assets/whitelogo.png" alt="logo">
+                    </div>
+
+                    <div class="about__typo">
+                        <p>When Agency and client truly work together, great thinks happen</p>
+                        <div class="about__media">
+                            <a href="/">
+                                <img src="assets/logos/facebook.png" alt="facebook">
+                            </a>
+                            <a href="/">
+                                <img src="assets/logos/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__columns">
+                    <div class="footer__column" id="second__footer__column">
+                        <a href="index.html"><h5>MAIN</h5></a>
+                        <a href="portfolio.html"><h5>PORTFOLIO</h5></a>
+                        <a href="news.html"><h5>NEWS</h5></a>
+                        <a href="blog.html"><h5>BLOG</h5></a>
+                    </div>
+
+                    <div class="footer__column legal__column">
+                        <a href="about_us.html"><h5>ABOUT US</h5></a>
+                        <a href="team.html"><h5>TEAM</h5></a>
+                        <a href="career.html"><h5>CAREER</h5></a>
+                        <a href="contact.html"><h5>CONTACT</h5></a>
+                    </div>
+                </div>
+
+
+
+                <div class="footer__subscribe">
+                    <div class="footer__column footer__send">
+                        <h4>CONTACT</h4>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/maps.png" alt="maps">
+                            </div>
+                            <h5>Vazha-Pshavela Avenue 71, Tbilisi, Georgia</h5>
+                        </div>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/mail.png" alt="mail">
+                            </div>
+                            <h5>info@advertising.ge</h5>
+                        </div>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/phone.png" alt="phone">
+                            </div>
+                            <h5>+995 032 220 74 77</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <script src="scripts/header.js"></script>
+        <script src="scripts/main.js"></script>
+    </div>
+</body>
+
+</html>

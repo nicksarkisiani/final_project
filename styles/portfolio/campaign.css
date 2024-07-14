@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Helvetiva';
+    src: url('../../fonts/helvetica/HelveticaNeueMedium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Helvetiva';
+    src: url('../../fonts/helvetica/HelveticaNeueBold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Helvetiva';
+    src: url('../../fonts/helvetica/HelveticaNeueHeavy.otf');
+    font-weight: 700;
+}
+
+.campaign__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.campaign__card {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.campaign__card:hover img {
+    transform: scale(1.2);
+}
+
+.campaign__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.campaign__card_info {
+    position: absolute;
+    left: 29px;
+    bottom: 30px;
+}
+
+.campaign__card_info h3 {
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 993px) {
+    .campaign__card {
+        height: 414px;
+    }
+}
+
+@media (max-width: 992px) {
+    .campaign__card {
+        height: 414px;
+    }
+
+    .campaign__card_info {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .campaign__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campaign__card_info {
+        display: block;
+    }
+}
+
+.campaign_product__main {
+    background-color: #F6F6F6;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campaign_product__container {
+    margin: 78px 0 49px 0;
+}
+
+.campaign_product__main p {
+    margin: 0;
+    padding: 0;
+}
+
+.campaign_product__columns {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+
+.column__first {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.column__first p {
+    width: 450px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+}
+
+.column__first img {
+    width: 727px;
+    height: 710px;
+}
+
+.column__second {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.column__second p {
+    width: 750px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: justify;
+}
+
+.bakhmaro__video {
+    width: 789px;
+    height: 444px;
+}
+
+.bakhmaro__video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.campaign_product__responsive {
+    display: none;
+}
+
+@media (max-width: 1800px) {
+    .campaign_product__columns {
+        gap: calc(100vw * 0.11);
+    }
+
+    .column__first img {
+        width: calc(100vw * 0.37);
+        height: calc(100vw * 0.37 * 0.97);
+        max-height: 710px;
+    }
+
+    .bakhmaro__video {
+        width: calc(100vw * 0.41);
+        height: calc((100vw * 0.37) * 0.56);
+    }
+
+    .column__second p {
+        width: calc(100vw * 0.390625);
+    }
+
+    .column__first p {
+        width: calc(100vw * 0.234375);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .campaign_product__main {
+        padding: 0 0 33px 0;
+    }
+
+    .campaign_product__container {
+        margin: 0;
+    }
+
+    .campaign_product__columns {
+        display: none;
+    }
+
+    .campaign_product__responsive {
+        margin-top: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 27px;
+    }
+
+    .campaign_product__responsive p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16.8px;
+        text-align: justify;
+        width: 350px;
+    }
+
+    .responsive__typo {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 16px;
+    }
+
+    .responsive_bakhmaro__video {
+        width: 352px;
+        height: 195px;
+    }
+
+    .responsive_bakhmaro__video iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .campaign_product__responsive img {
+        width: 352px;
+        height: 342px;
+    }
+
+    .campaign_product__h {
+        width: 270px;
+    }
+
+    .campaign_product__h h2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 420px) {
+    .campaign_product__h {
+        width: 256px;
+    }
+}
+
+@media(max-width: 390px) {
+    .campaign_product__responsive p,
+    .responsive_bakhmaro__video,
+    .campaign_product__responsive img {
+        width: 330px;
+    }
+}
+
+@media(max-width: 350px) {
+    .campaign_product__responsive p,
+    .responsive_bakhmaro__video,
+    .campaign_product__responsive img {
+        width: 300px;
+    }
+}

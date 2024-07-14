@@ -1,0 +1,1406 @@
+.header__bg {
+    max-width: 1920px;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+
+.header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) -13%, rgba(102, 102, 102, 0) 100%);
+    transition: 0.8s ease;
+}
+
+.header {
+    height: 274px;
+}
+
+.header__nav {
+    height: 57px;
+}
+
+.header__white {
+    background: #fff;
+    color: #000;
+    transition: 0.8s ease;
+}
+
+.header__white .header__nav a {
+    color: #000;
+}
+
+.header__white .header__nav select {
+    color: #000;
+}
+
+.header__white img {
+    filter: invert(29%) sepia(96%) saturate(7499%) hue-rotate(249deg) brightness(62%) contrast(104%);
+}
+
+.header__logo img {
+    width: 56px;
+    height: 56px;
+    color: #000;
+}
+
+.header__a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header__select {
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+
+.meeting {
+    max-width: 912px;
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto 0 auto;
+    gap: 32px;
+    align-items: center;
+}
+
+.meeting__bg {
+    position: absolute;
+    z-index: 5;
+    max-width: 1920px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.meeting__bg video {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.meeting__typo {
+    font-feature-settings: "case" on;
+}
+
+.meeting__typo h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.meeting__apply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #fff;
+    gap: 30px;
+    font-weight: 200;
+}
+
+.meeting__apply span {
+    display: block;
+}
+
+.meeting__apply button {
+    font-feature-settings: "case" on;
+    font-weight: 200;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.brands {
+    background-color: #F6F6F6;
+    padding: 46px 214px 125px 214px;
+}
+
+.brands__container {
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    align-items: center;
+}
+
+.brands__typo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: #565656;
+
+}
+
+
+.brands__typo p {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #000;
+    width: 520px;
+    font-weight: 300;
+    margin: 0;
+    text-align: justify;
+
+}
+
+
+.brands__img {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+
+.brands__card {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.brands__card:hover {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.brand__card_blur {
+    opacity: 10%;
+}
+
+.brand__img {
+    object-fit: cover;
+    max-width: 70%;
+    max-height: 80%;
+}
+
+.card__none {
+    display: none;
+}
+
+.brand__card_info {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-feature-settings: 'case' on;
+    gap: 48px;
+}
+
+.brand__card_info h4 {
+    width: 78%;
+    height: 23%;
+    margin: 39% 10% 20% 10%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.brand__card_info span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    background: none;
+    color: #000;
+    text-decoration: none;
+    width: 80px;
+    height: 12px;
+    margin: 0 auto 24px auto;
+}
+
+.img__cover {
+    height: auto;
+    margin: auto;
+}
+
+.brand__card_info svg {
+    margin-bottom: 2px;
+}
+
+.brand__mccan {
+    width: 164px;
+    height: 53px;
+    margin: 94px 33px 83px 33px;
+}
+
+.brand__um {
+    width: 107px;
+    height: 107px;
+    margin: 51px 61px 72px 62px;
+}
+
+.brand__kedi {
+    width: 206.37px;
+    height: 31.01px;
+    margin: 94.47px 12.23px 104.52px 12.39px;
+}
+
+.brand__initiative {
+    width: 160.38px;
+    height: 55.43px;
+    margin: 87.27px 34.2px 87.27px 35.38px;
+}
+
+.brand__stv {
+    width: 94.34px;
+    height: 60.14px;
+    margin: 87.4px 67.35px 82.68px 68.53px;
+}
+
+.brand__adssprint {
+    width: 171px;
+    height: 61.32px;
+    margin: 80.32px 24.77px 88.58px 34.46px;
+}
+
+.projects {
+    background-color: #0057FF;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: row;
+    max-width: 610px;
+    height: 100%;
+    align-items: center;
+    gap: 136px;
+    padding: 8px 0 16px 0;
+}
+
+.projects__div h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.projects__div h5 {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.partners {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.partners__logos {
+    display: grid;
+    grid-template-columns: repeat(10, 138px);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 13px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.partners__logos div {
+    width: 138px;
+    height: 138px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__about {
+    background-color: #fff;
+}
+
+.main__about_container {
+    display: flex;
+    flex-direction: row;
+    margin: 103px 0 103px 0;
+    gap: 83px;
+    color: #000000;
+}
+
+.about__img {
+    width: 975px;
+    max-height: 543px;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;    
+    position: relative;
+}
+
+.about__img img {
+    object-fit: cover;
+    max-width: 390px;
+    max-height: 334px;
+    margin: 0;
+    position: absolute;
+    right: 4%;
+    top: 20%;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    margin: 43px 0 46px 0;
+}
+
+.about__title {
+    font-feature-settings: "case" on;
+    font-size: 40px;
+    margin-bottom: 44px;
+}
+
+.about__title h2 {
+    color: #565656;
+}
+#index__title {
+    color: #fff;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 16.8px;
+    margin-bottom: 32px;
+}
+
+.about__info p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about__ul ul {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about__info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 242px;
+}
+
+
+.partner__mastercard {
+    width: 61px;
+    height: 49px;
+    margin: 49px 47px 40px 30px;
+}
+
+.partner__beko {
+    width: 75px;
+    height: 43px;
+    margin: 53px 35px 42px 28px;
+}
+
+.partner__doritos {
+    width: 114px;
+    height: 65px;
+    margin: 41px 16px 32px 8px;
+}
+
+.partner__nabeghlavi {
+    width: 96px;
+}
+
+.partner__jpa {
+    width: 91px;
+}
+
+.partner__voovly {
+    width: 77px;
+    height: 25px;
+    margin: 59px 31px 54px 30px;
+}
+
+.partner__saxli {
+    width: 71px;
+    height: 80px;
+    margin: 29px 33px 29px 34px;
+}
+
+.partner__sena {
+    width: 114px;
+}
+
+.partner__embawood {
+    width: 101px;
+    height: 14px;
+    margin: 62px 12px 62px 25px;
+}
+
+.partner__vici {
+    width: 59px;
+    height: 32px;
+    margin: 53px 40px 53px 39px;
+}
+
+.partner__ghome {
+    width: 135px;
+    height: 45px;
+    margin: 44px 2px 49px 1px;
+}
+
+.partner__geolive {
+    width: 96px;
+    height: 97px;
+    margin: 17px 23px 24px 19px;
+}
+
+.partner__petspoot {
+    width: 112px;
+    height: 70px;
+    margin: 30px 10px 37px 16px;
+}
+
+.partner__president {
+    width: 95px;
+    height: 54px;
+    margin: 44px 19px 39px 24px;
+}
+
+.partner__technoshop {
+    width: 108px;
+    height: 62px;
+    margin: 26px 11px 49px 18px;
+}
+
+.partner__sunny {
+    width: 97px;
+    height: 12px;
+    margin: 68px 19px 57px 22px;
+}
+
+.partner__arcelik {
+    width: 111px;
+    height: 27px;
+    margin: 61px 14px 49px 13px;
+}
+
+.partner__grundelik {
+    width: 103px;
+    height: 11px;
+    margin: 69px 14px 57px 21px;
+}
+
+.partner__vox {
+    width: 109px;
+    height: 61px;
+    margin: 39px 15px 38px 14px;
+}
+
+.partner__arzum {
+    width: 105px;
+    height: 32px;
+    margin: 53px 17px 53px 16px;
+}
+
+.partner__ozdilek {
+    width: 89px;
+    height: 89px;
+    margin: 19px 25px 30px 24px;
+}
+
+.partner__zilan {
+    width: 92px;
+    height: 92px;
+    margin: 16px 18px 30px 28px;
+}
+
+.partner__buga {
+    width: 138px;
+    height: 58px;
+    margin: 35px 0px 44px 0px;
+}
+
+.partner__wolt {
+    width: 76px;
+    height: 43px;
+    margin: 40.58px 27.59px 54px 34px;
+}
+
+.partner__aversi {
+    width: 124px;
+    height: 62px;
+    margin: 37.58px 5.33px 38px 8.25px;
+}
+
+.partner__servier {
+    width: 103px;
+    height: 67px;
+    margin: 32.58px 18px 38px 16.5px;
+}
+
+.partner__cellfie {
+    width: 102px;
+    height: 36px;
+    margin: 46px 13.5px 55px 22px;
+}
+
+.partner__kimberly {
+    width: 105px;
+    height: 13px;
+    margin: 57px 15px 67px 17.6px;
+}
+
+.partner__roshen {
+    width: 94px;
+    height: 50px;
+    margin: 40px 21px 48px 23px;
+}
+
+.partner__alta {
+    width: 120px;
+    height: 20px;
+    margin: 51px 7px 67px 11px;
+}
+
+
+.partners__h2 {
+    color: #565656;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.partners__typo {
+    align-items: center;
+}
+
+
+@media (max-width: 1550px) {
+
+    .brands__img {
+        gap: 20px;
+    }
+
+    .brands__card {
+        width: 200px;
+        height: 200px;
+    }
+
+    .brand__mccan {
+        width: 71%;
+        height: 23%;
+        margin: 40% 14% 36% 14%;
+    }
+
+    .brand__um {
+        width: 46.5%;
+        height: 46%;
+        margin: 22% 26% 31% 27%;
+    }
+
+    .brand__kedi {
+        width: 89%;
+        height: 13%;
+        margin: 41% 5% 45% 5%;
+    }
+
+    .brand__initiative {
+        width: 69%;
+        height: 24%;
+        margin: 37% 14% 37% 14%;
+    }
+
+    .brand__stv {
+        width: 40%;
+        height: 26%;
+        margin: 35% 29% 35% 29%;
+    }
+
+    .brand__adssprint {
+        width: 74%;
+        height: 26%;
+        margin: 34% 10% 35% 14%;
+    }
+
+    .partners__logos {
+        grid-template-columns: repeat(10, 120px);
+    }
+
+    .partners__logos div {
+        width: 120px;
+        height: 120px;
+    }
+
+    .partner__mastercard {
+        width: 44%;
+        height: 35%;
+        margin: 35% 35% 28% 21%;
+    }
+
+    .partner__beko {
+        width: 54%;
+        height: 31%;
+        margin: 38% 25% 30% 20%;
+    }
+
+    .partner__doritos {
+        width: 82%;
+        height: 47%;
+        margin: 29% 11% 23% 5%;
+    }
+
+    .partner__nabeghlavi {
+        width: 69%;
+        height: 40%;
+        margin: 31% 16% 29% 14%;
+    }
+
+    .partner__jpa {
+        width: 65%;
+        height: 32%;
+        margin: 33% 21% 34% 11%;
+    }
+
+    .partner__voovly {
+        width: 55%;
+        height: 18%;
+        margin: 42% 23% 29% 21%;
+    }
+
+    .partner__saxli {
+        width: 51%;
+        height: 57%;
+        margin: 21% 23% 21% 23%;
+    }
+
+    .partner__sena {
+        width: 82%;
+        height: auto;
+        margin: 36% 5% 30% 11%;
+    }
+
+    .partner__embawood {
+        width: 73%;
+        height: 10%;
+        margin: 44% 8% 44% 18%;
+    }
+
+    .partner__vici {
+        width: 42%;
+        height: 23%;
+        margin: 38% 28% 38% 28%;
+    }
+
+    .partner__ghome {
+        width: 97%;
+        height: 32%;
+        margin: 31% 0.7% 35% 0.7%;
+    }
+
+    .partner__geolive {
+        width: 69%;
+        height: 69%;
+        margin: 13% 17% 17% 13%;
+    }
+
+    .partner__petspoot {
+        width: 81%;
+        height: 50%;
+        margin: 21% 7% 26% 11%;
+    }
+
+    .partner__president {
+        width: 68%;
+        height: 39%;
+        margin: 31% 14% 28% 17%;
+    }
+
+    .partner__technoshop {
+        width: 78%;
+        height: 45%;
+        margin: 18% 7% 35% 13%;
+    }
+
+    .partner__sunny {
+        width: 70%;
+        height: 8%;
+        margin: 49% 13% 41% 15%;
+    }
+
+    .partner__arcelik {
+        width: 80%;
+        height: 19%;
+        margin: 44% 10% 35% 10%;
+    }
+
+    .partner__grundelik {
+        width: 74%;
+        height: 8%;
+        margin: 50% 10% 41% 15%;
+    }
+
+    .partner__vox {
+        width: 78%;
+        height: 44%;
+        margin: 28% 10% 28% 10%;
+    }
+
+    .partner__arzum {
+        width: 76%;
+        height: 23%;
+        margin: 38% 11% 38% 11%;
+    }
+
+    .partner__ozdilek {
+        width: 64%;
+        height: 64%;
+        margin: 13% 18% 21% 18%;
+    }
+
+    .partner__zilan {
+        width: 66%;
+        height: 66%;
+        margin: 11% 13% 21% 20%;
+    }
+
+    .partner__buga {
+        width: 100%;
+        height: 42%;
+        margin: 25% 0 32% 0;
+    }
+
+    .partner__wolt {
+        width: 55%;
+        height: 31%;
+        margin: 28% 19% 39% 24%;
+    }
+
+    .partner__aversi {
+        width: 89%;
+        height: 44%;
+        margin: 26% 3% 27% 5%;
+    }
+
+    .partner__servier {
+        width: 74%;
+        height: 44%;
+        margin: 23% 12% 27% 12%;
+    }
+
+    .partner__cellfie {
+        width: 73%;
+        height: 26%;
+        margin: 33% 9% 39% 15%;
+    }
+
+    .partner__kimberly {
+        width: 76%;
+        height: 9%;
+        margin: 41% 10% 48% 12%;
+    }
+
+    .partner__roshen {
+        width: 68%;
+        height: 36%;
+        margin: 28% 15% 34% 15%;
+    }
+
+    .partner__alta {
+        width: 86%;
+        height: 14%;
+        margin: 36% 5% 48% 7%;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .main__about_container {
+        gap: 5%;
+    }
+
+    .about__img {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .brands__img {
+        gap: 18px;
+    }
+
+    .brands__card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .partners__logos {
+        grid-template-columns: repeat(10, 100px);
+        gap: 12px;
+    }
+
+    .partners__logos div {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .about__img {
+        width: 700px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .brands__img {
+        gap: 13px;
+    }
+
+    .brands__card {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .partners__logos {
+        grid-template-columns: repeat(10, 90px);
+        gap: 8px
+    }
+
+    .partners__logos div {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+
+
+
+@media (max-width: 1050px) {
+    .about__img {
+        width: 500px;
+    }
+
+    .brands__img {
+        gap: 10px;
+    }
+
+    .brands__card {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .partners__logos {
+        grid-template-columns: repeat(10, 80px);
+        gap: 8px
+    }
+
+    .partners__logos div {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 950px) {
+    .brands__img {
+        gap: 10px;
+    }
+
+    .brands__card {
+        width: 121px;
+        height: 121px;
+    }
+
+    .brand__card_info {
+        gap: 0;
+    }
+
+    .brand__card_info h4 {
+        width: 90px;
+        height: 55px;
+        margin: 30px 10px 15px 10px;
+        font-size: 12px;
+    }
+
+    .brand__card_info span {
+        margin: 0 auto;
+    }
+
+    .brand__mccan {
+        width: 86px;
+        height: 27px;
+        margin: 49px 17px 43px 17px;
+    }
+
+    .brand__um {
+        width: 56px;
+        height: 57px;
+        margin: 27px 32px 38px 32px;
+    }
+
+    .brand__kedi {
+        width: 108px;
+        height: 16px;
+        margin: 48px 5px 54px 7px;
+    }
+
+    .brand__initiative {
+        width: 85px;
+        height: 29px;
+        margin: 46px 18px;
+    }
+
+    .brand__stv {
+        width: 49px;
+        height: 32px;
+        margin: 44px 36px;
+    }
+
+    .brand__adssprint {
+        width: 90px;
+        height: 33px;
+        margin: 44px 15px;
+    }
+
+    .partners__logos div img {
+        height: auto;
+        margin: auto;
+    }
+
+    /* .partner__mastercard {
+        width: 33px;
+        height: 26px;
+        margin: 26px 25px 22px 16px;
+    }
+
+    .partner__beko {
+        width: 40px;
+        height: 23px;
+        margin: 28px 19px 23px 15px;
+    }
+
+    .partner__doritos {
+        width: 61px;
+        height: 35px;
+        margin: 22px 9px 17px 4px;
+    }
+
+    .partner__nabeghlavi {
+        width: 51px;
+        height: 29px;
+    }
+
+    .partner__jpa {
+        width: 49px;
+    }
+
+    .partner__voovly {
+        width: 41px;
+    }
+
+    .partner__saxli {
+        width: 38px;
+    }
+
+    .partner__sena {
+        width: 62px;
+    }
+
+    .partner__embawood {
+        width: 54px;
+    }
+
+    .partner__vici {
+        width: 32px;
+    }
+
+    .partner__ghome {
+        width: 72px;
+    }
+
+    .partner__geolive {
+        width: 51px;
+    }
+
+    .partner__petspoot {
+        width: 62px;
+    }
+
+    .partner__president {
+        width: 51px;
+    }
+
+    .partner__technoshop {
+        width: 58px;
+    }
+
+    .partner__sunny {
+        width: 52px;
+    }
+
+    .partner__arcelik {
+        width: 59px;
+    }
+
+    .partner__aversi {
+        width: 66px;
+    }
+
+    .partner__servier,
+    .partner__cellfie,
+    .partner__kimberly,
+    .partner__grundelik {
+        width: 55px;
+    }
+
+    .partner__vox {
+        width: 59px;
+    }
+
+    .partner__arzum {
+        width: 56px;
+    }
+
+    .partner__roshen {
+        width: 50px;
+    }
+
+    .partner__alta {
+        width: 64px;
+    }
+
+    .partner__ozdilek {
+        width: 48px;
+    }
+
+    .partner__zilan {
+        width: 50px;
+    }
+
+    .partner__buga {
+        width: 76px;
+    }
+
+    .partner__wolt {
+        width: 40px;
+    } */
+}
+
+
+@media (max-width: 900px) {
+    .partners__logos {
+        grid-template-columns: repeat(10, 74px);
+        gap: 8px
+    }
+
+    .partners__logos div {
+        width: 74px;
+        height: 74px;
+    }
+}
+
+
+
+
+@media (max-width: 850px) {
+
+    .header {
+        height: 139px;
+    }
+
+    /* content */
+    .content {
+        gap: 0;
+    }
+
+    /* meeting */
+
+    .meeting {
+        margin-top: 28px;
+        width: 296px;
+        gap: 18px;
+    }
+
+    .meeting__typo h1 {
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+
+    .meeting__apply span {
+        width: 310px;
+        line-height: 14.4px;
+        font-size: 12px;
+    }
+
+    .meeting__apply button {
+        font-size: 15px;
+        height: 36px;
+        width: 232px;
+        text-align: center;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+
+    .meeting__apply svg {
+        width: 6px;
+        height: 10px;
+    }
+
+    /* brands */
+    .brands {
+        padding: 26px 30px 47px 30px;
+    }
+
+    .brands__container {
+        align-items: center;
+        gap: 32px;
+    }
+
+
+    .brands__typo {
+        align-self: baseline;
+        align-items: start;
+        gap: 20px;
+
+    }
+
+    .brands__h2 h2 {
+        font-size: 28px;
+    }
+
+    .brands__typo p {
+        font-size: 14px;
+        line-height: 14.8px;
+        width: 330px;
+    }
+
+    .brands__img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+
+    /* main about */
+    .main__about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__about_container {
+        flex-direction: column;
+        gap: 150px;
+        margin: 0;
+        width: 394px;
+        height: 853px;
+        background-image: url('../assets/bg850.png');
+        background-size: cover;
+    }
+
+    .main__about_container::before {
+        content: " ";
+        position: absolute;
+        max-width: 393px;
+        width: 100%;
+        height: 100%;
+        max-height: 853px;
+        min-width: 320px;
+        min-height: 853px;
+        z-index: 0;
+        background: rgba(0, 0, 0, 0.30);
+    }
+
+    .about__img {
+        width: 100%;
+        height: 294px;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .about__img img {
+        width: 287px;
+        margin-top: 50px;
+        position: static;
+        margin-left: 6%;
+    }
+
+    .about__content {
+        margin: 0;
+        padding-left: 30px;
+        color: #fff;
+        position: relative;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about__title h2 {
+        color: #fff;
+    }
+
+    .about__info {
+        margin-bottom: 0;
+    }
+
+    .about__info p {
+        font-weight: 100;
+    }
+
+    .about__ul ul {
+        font-size: 12px;
+        font-weight: 100;
+        font-variant-numeric: diagonal-fractions;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about__ul li {
+        height: 14px;
+    }
+
+    /* projects */
+    .projects {
+        margin-top: 44px;
+    }
+
+    .projects__container {
+        gap: 37px;
+    }
+
+    .projects__container h3 {
+        font-size: 25px;
+    }
+
+    /* partners */
+    .partners {
+        align-items: start;
+        padding: 44px 30px 38px 30px;
+        gap: 20px;
+    }
+
+    .partners__logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 6px
+    }
+
+}
+
+@media(max-width: 394px){
+    .main__about {
+        display: block;
+    }
+
+    .main__about_container {
+        width: auto;
+        max-width: 394px;
+    }
+}
+
+@media(max-width: 355px) {
+    .partners__h {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 395px) {
+    .brands {
+        padding: 26px 30px 46px 30px;
+    }
+
+    .brands__typo p {
+        width: auto;
+    }
+
+    .partners {
+        align-items: center;
+        padding: 44px 0 38px 0;
+    }
+
+    .partners__h {
+        padding: 0;
+    }
+
+    .partners__typo {
+        width: 314px;
+        padding: 0 30px;
+        align-self: baseline;
+    }
+
+    .partners__logos {
+        margin: 0;
+    }
+}
+
+.purplelogo {
+    display: none;
+}
+
+.whitelogo {
+    display: block;
+}
+
+.purplelogo_active {
+    display: block;
+}
+
+.whitelogo_active {
+    display: none;
+}
+
+.header__nav_active a {
+    color: #000;
+}
+
+.header__nav_active select {
+    color: #000;
+}

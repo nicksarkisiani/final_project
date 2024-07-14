@@ -1,0 +1,86 @@
+.about_us__contact {
+    background-color: #F6F6F6;
+}
+
+.about_us__description {
+    display: flex;
+    flex-direction: column;
+    width: 788px;
+    gap: 20px;
+    color: #000;
+}
+
+.about_us__description h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.description__p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    font-variant-numeric: diagonal-fractions;
+}
+
+.description__ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5vw;
+    font-variant-numeric: diagonal-fractions;
+}
+
+.description__ul strong {
+    font-weight: 700;
+}
+
+@media (max-width: 850px) {
+
+    .contact_company__h span{
+        width: 122px !important;
+    }
+
+    .contact__container {
+        gap: 30px;
+    }
+
+    .about_us__description {
+        width: 90%;
+    }
+
+    .description__p {
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .description__p p {
+        margin: 0;
+    }
+
+    .description__ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 420px) {
+    .contact_company__h h2 {
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 395px) {
+    .description__ul {
+        text-align: left;
+    }
+}

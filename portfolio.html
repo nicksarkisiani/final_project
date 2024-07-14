@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/nullstyle.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header__hover"></div>
+        <header class="header white_bg__header about_us__header">
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.png" alt="logo">
+            </a>
+            <div class="header__nav">
+                <a href="index.html" class="header__a">მთავარი</a>
+                <a href="portfolio.html" class="header__a" id="a_active">პორტფოლიო</a>
+                <a href="news.html" class="header__a">სიახლეები</a>
+                <a href="blog.html" class="header__a">ბლოგი</a>
+                <a href="about_us.html" class="header__a">ჩვენს შესახებ</a>
+                <a href="team.html" class="header__a">გუნდი</a>
+                <a href="career.html" class="header__a">კარიერა</a>
+                <a href="contact.html" class="header__a">კონტაქტი</a>
+                <select name="lang" class="header__select">
+                    <option selected>ქარ</option>
+                </select>
+            </div>
+
+            <div class="off-screen-menu">
+                <ul class="off-screen-menu__content">
+                    <li>
+                        <div class="header__logo">
+                            <img src="assets/whitelogo.png" alt="logo">
+                        </div>
+                    </li>
+                    <li><a href="index.html" class="header__a">მთავარი</a></li>
+                    <li><a href="portfolio.html" class="header__a" id="a_active">პორტფოლიო</a></li>
+                    <li><a href="news.html" class="header__a">სიახლეები</a></li>
+                    <li><a href="blog.html" class="header__a">ბლოგი</a></li>
+                    <li><a href="about_us.html" class="header__a">ჩვენს შესახებ</a></li>
+                    <li><a href="team.html" class="header__a">გუნდი</a></li>
+                    <li><a href="career.html" class="header__a">კარიერა</a></li>
+                    <li><a href="contact.html" class="header__a">კონტაქტი</a></li>
+                    <li>
+                        <select name="lang" class="header__select">
+                            <option selected>ქარ</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="blur-overlay" class="display__none">
+
+            </div>
+
+            <div class="ham-menu white_header__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <div class="main first__elem">
+            <div class="portfolio__types">
+                <div class="portfolio__types_container">
+                    <a class="portfolio__card first" href="portfolio/campaigns.html">
+                        <div>
+                            <svg width="76" height="65" viewBox="0 0 76 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_892_650)">
+                                    <path
+                                        d="M11.0003 47.1501C10.667 47.1501 10.5003 47.3185 10.167 47.3185L18.667 62.9791C19.3337 64.3263 20.8337 64.9999 22.167 64.9999C22.8337 64.9999 23.667 64.8315 24.3337 64.4947C26.3337 63.3159 27.0003 60.79 25.8337 58.7693L18.3337 45.1294C15.8337 45.803 13.5003 46.4765 11.0003 47.1501Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M64.1666 31.658C63.8333 32.1632 63.9999 32.6684 64.4999 33.0052L72.1666 37.5518C72.6666 37.8886 73.1666 37.7202 73.4999 37.215C73.8332 36.7098 73.6666 36.2046 73.1666 35.8679L65.4999 31.3212C65.3332 31.1528 65.1666 31.1528 64.9999 31.1528C64.8333 31.1528 64.4999 31.3212 64.1666 31.658Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M5.99996 28.6271C1.66662 29.8059 -1.00004 34.3525 0.333291 39.0675C1.49996 43.7826 6.16663 46.4768 10.5 45.2981C13.8333 44.4561 16 43.6142 18.5 42.9406L14.1666 26.438C11.5 27.28 9.49996 27.6167 5.99996 28.6271Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M55.9997 29.3005L58.333 27.7849C59.333 27.2797 59.6663 26.101 59.333 25.0906L58.333 21.0492C57.9997 20.0388 57.1663 19.3652 56.1663 19.3652H53.333L55.9997 29.3005Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M74.8331 17.8496L66.3331 20.2071C65.8331 20.3755 65.4997 20.8807 65.6664 21.3859C65.8331 21.8911 66.3331 22.2278 66.8331 22.0595L75.3331 19.7019C75.8331 19.5335 76.1664 19.0284 75.9997 18.5232C75.8331 18.018 75.4997 17.8496 74.9997 17.8496H74.8331Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M17.6667 25.4276C17.1667 25.596 16.5 25.7644 16 25.9328L20.3333 42.4354C20.8333 42.267 21.3333 42.267 22 42.0986C34.1667 39.4043 43.1667 41.2566 49.1667 44.6245L40 9.43018C36.5 15.324 29.5 21.5545 17.6667 25.4276Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M63.4996 4.04131L58.9996 11.7874C58.6663 12.2926 58.8329 12.9662 59.3329 13.1346C59.8329 13.4714 60.4996 13.303 60.6663 12.7978L65.1663 5.05168C65.4996 4.5465 65.3329 3.87292 64.8329 3.70453C64.6663 3.53613 64.4996 3.53613 64.3329 3.53613C63.9996 3.53613 63.6663 3.70453 63.4996 4.04131Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M42.8337 0.168394C41.1671 0.673575 40.1671 2.35751 40.5004 4.20984L52.3337 49.171C52.8337 50.8549 54.5004 51.8653 56.3337 51.5285C58.0004 51.0233 59.0004 49.3394 58.6671 47.487L46.8337 2.35751C46.5004 0.841969 45.1671 0 43.6671 0C43.3337 0 43.1671 0 42.8337 0.168394Z"
+                                        fill="#0057FF" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_892_650">
+                                        <rect width="76" height="65" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>IMC კამპანიები</p>
+                    </a>
+                    <a class="portfolio__card second" href="portfolio/production.html">
+                        <div>
+                            <svg width="69" height="68" viewBox="0 0 69 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_893_659)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M42.8666 58.6587C42.3498 57.9047 42.0704 57.0251 42.0704 56.1175V53.5762H13.8559V56.1175C13.8559 57.5277 15.0012 58.6587 16.398 58.6587H42.8666ZM17.9204 32.3803V24.6587H12.934V32.3803H17.9204ZM51.0796 24.6587V32.3803H56.066V24.6587H51.0796ZM58.7198 11.1425H67.3239C67.715 11.1425 68.0223 11.4497 68.0223 11.8407V38.0214C68.0223 38.4123 67.715 38.7195 67.3239 38.7195H58.7198C58.3287 38.7195 58.0215 38.4123 58.0215 38.0214V11.8407C58.0215 11.4497 58.3427 11.1425 58.7198 11.1425ZM1.67611 11.1425H10.2802C10.6713 11.1425 10.9785 11.4497 10.9785 11.8407V38.0214C10.9785 38.4123 10.6713 38.7195 10.2802 38.7195H1.67611C1.28502 38.7195 0.977733 38.4123 0.977733 38.0214V11.8407C0.977733 11.4497 1.28502 11.1425 1.67611 11.1425ZM52.8953 15.5269V7.54004C52.8953 7.14908 52.5881 6.84189 52.197 6.84189H16.803C16.4119 6.84189 16.1047 7.14908 16.1047 7.54004V15.5269H52.8953ZM46.582 58.6587C45.1713 58.6587 44.0399 57.5138 44.0399 56.1175V52.5988C44.0399 52.0542 43.6069 51.6214 43.0621 51.6214H19.8759V24.6727H49.1381V56.1314C49.1241 57.5138 47.9927 58.6587 46.582 58.6587ZM49.4034 0H40.1569C39.7658 0 39.4585 0.307187 39.4585 0.698152V4.88706H50.1018V0.698152C50.1018 0.307187 49.7945 0 49.4034 0ZM64.6561 40.6743V66.0452H68.0223C68.567 66.0452 69 66.478 69 67.0226C69 67.5671 68.567 68 68.0223 68H58.0215C57.4767 68 57.0437 67.5671 57.0437 67.0226C57.0437 66.478 57.4767 66.0452 58.0215 66.0452H61.3876V40.6743H64.6561ZM12.934 17.4817H56.08V22.7039H12.934V17.4817ZM10.9785 66.0452C11.5233 66.0452 11.9563 66.478 11.9563 67.0226C11.9563 67.5671 11.5233 68 10.9785 68H0.977733C0.432996 68 0 67.5671 0 67.0226C0 66.478 0.432996 66.0452 0.977733 66.0452H4.34393V40.6743H7.61235V66.0452H10.9785Z"
+                                        fill="#0057FF" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_893_659">
+                                        <rect width="69" height="68" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <p>წარმოება</p>
+                    </a>
+                    <a class="portfolio__card third">
+                        <div>
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_893_661)">
+                                    <path
+                                        d="M61 8.64298V15.5105H1.94499e-05V8.64298C-0.00593758 6.60786 1.35703 4.82281 3.32285 4.2929C3.69219 4.19406 4.07463 4.14404 4.45707 4.14404H12.5277V8.5358C12.4895 10.6864 14.204 12.4608 16.3556 12.4989C18.5073 12.537 20.2825 10.8234 20.3206 8.67275C20.3206 8.6275 20.3206 8.58225 20.3206 8.537V4.14523H40.6794V8.537C40.6782 10.6888 42.4212 12.4334 44.5741 12.4346C46.727 12.4358 48.4724 10.6936 48.4736 8.54176V4.14404H56.543C59.0163 4.15595 61.0119 6.17083 61 8.64298Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M2.79615e-05 18.249V56.5007C-0.00712048 58.5358 1.35704 60.3221 3.32286 60.852C3.6922 60.9508 4.07464 61.0008 4.45708 60.9996H56.543C59.0163 60.9877 61.0119 58.9729 61 56.5007V18.249H2.79615e-05ZM43.6674 36.2769L37.9809 41.8166C37.7891 42.0012 37.7009 42.268 37.7426 42.5311L39.0853 50.3537C39.1616 50.7966 38.8649 51.217 38.4217 51.2932C38.2442 51.3242 38.0619 51.2944 37.9034 51.2111L30.8741 47.5195C30.637 47.3945 30.3535 47.3945 30.1164 47.5195L23.0871 51.2111C22.6892 51.4206 22.1971 51.2694 21.9874 50.8717C21.904 50.7133 21.8742 50.5311 21.9052 50.3537L23.2539 42.5418C23.2956 42.2787 23.2074 42.0119 23.0156 41.8274L17.329 36.2876C17.0074 35.9733 17.0014 35.4576 17.3159 35.1361C17.441 35.0087 17.6042 34.9253 17.7806 34.8991L25.6439 33.7571C25.9095 33.719 26.1383 33.5523 26.2562 33.3118L29.7709 26.1954C29.971 25.7917 30.4595 25.6274 30.8622 25.8262C31.0219 25.9048 31.1517 26.0346 31.2316 26.1954L34.7462 33.3118C34.8642 33.5523 35.0929 33.719 35.3586 33.7571L43.2219 34.8991C43.6663 34.9718 43.9665 35.3909 43.8938 35.8351C43.8664 36.0018 43.7878 36.1566 43.6674 36.2769Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M44.5768 10.9054C43.2734 10.8982 42.2226 9.83838 42.2285 8.53562V2.3993C42.2285 1.10249 43.2782 0.0509955 44.5744 0.0498047C45.8719 0.0498047 46.9239 1.09892 46.9251 2.39454V8.53562C46.931 9.83838 45.8802 10.8982 44.5768 10.9054Z"
+                                        fill="#0057FF" />
+                                    <path
+                                        d="M16.4251 10.9052C15.1217 10.8993 14.0708 9.83944 14.0768 8.53668C14.0768 8.53668 14.0768 8.53668 14.0768 8.53549V2.39917C14.047 1.10355 15.0752 0.0294249 16.3715 -0.00034574C17.6677 -0.0301164 18.7423 0.997565 18.7721 2.29318C18.7721 2.32891 18.7721 2.36344 18.7721 2.39917V8.53549C18.7793 9.83825 17.7285 10.8981 16.4251 10.9052Z"
+                                        fill="#0057FF" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_893_661">
+                                        <rect width="61" height="61" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <p>ივენთები</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__about">
+                    <div class="header__logo about__logo">
+                        <img src="assets/whitelogo.png" alt="logo">
+                    </div>
+
+                    <div class="about__typo">
+                        <p>When Agency and client truly work together, great thinks happen</p>
+                        <div class="about__media">
+                            <a href="/">
+                                <img src="assets/logos/facebook.png" alt="facebook">
+                            </a>
+                            <a href="/">
+                                <img src="assets/logos/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__columns">
+                    <div class="footer__column" id="second__footer__column">
+                        <a href="index.html"><h5>MAIN</h5></a>
+                        <a href="portfolio.html"><h5>PORTFOLIO</h5></a>
+                        <a href="news.html"><h5>NEWS</h5></a>
+                        <a href="blog.html"><h5>BLOG</h5></a>
+                    </div>
+
+                    <div class="footer__column legal__column">
+                        <a href="about_us.html"><h5>ABOUT US</h5></a>
+                        <a href="team.html"><h5>TEAM</h5></a>
+                        <a href="career.html"><h5>CAREER</h5></a>
+                        <a href="contact.html"><h5>CONTACT</h5></a>
+                    </div>
+                </div>
+
+
+
+                <div class="footer__subscribe">
+                    <div class="footer__column footer__send">
+                        <h4>CONTACT</h4>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/maps.png" alt="maps">
+                            </div>
+                            <h5>Vazha-Pshavela Avenue 71, Tbilisi, Georgia</h5>
+                        </div>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/mail.png" alt="mail">
+                            </div>
+                            <h5>info@advertising.ge</h5>
+                        </div>
+                        <div class="send__img">
+                            <div>
+                                <img src="assets/logos/phone.png" alt="phone">
+                            </div>
+                            <h5>+995 032 220 74 77</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/header.js"></script>
+</body>
+
+</html>
