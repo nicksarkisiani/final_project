@@ -1,0 +1,48 @@
+.logo {
+    width: 133px;
+    height: 123px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.animation {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    overflow: hidden;
+}   
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.logo {
+    margin: calc(50vh - (123px / 2)) 0;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 800ms;
+    animation-timing-function: linear;
+    animation-duration: 7000ms;
+    animation-fill-mode: forwards; 
+}
+
+.animation__none {
+    display: none !important;
+}
+
+.hidden {
+    overflow: hidden;
+}

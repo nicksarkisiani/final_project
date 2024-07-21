@@ -389,9 +389,7 @@
 .about__title h2 {
     color: #565656;
 }
-#index__title {
-    color: #fff;
-}
+
 
 .about__info {
     display: flex;
@@ -1333,6 +1331,10 @@
         gap: 6px
     }
 
+
+    #index__title {
+        color: #fff;
+    }
 }
 
 @media(max-width: 394px){

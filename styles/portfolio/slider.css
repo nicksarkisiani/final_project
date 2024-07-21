@@ -58,7 +58,10 @@
     margin: 20px auto 0 auto;
 }
 
-/* .image-mini-slider_wrapper {} */
+.image-mini-slider_wrapper {
+    margin: 0 auto;
+    width: max-content;
+}
 
 .image-mini-slider_slide {
     filter: grayscale(100%);
@@ -102,6 +105,9 @@
     object-fit: fill;
 }
 
+.swiper-pagination {
+    height: max-content;
+}
 
 @media screen and (max-width: 1550px) {
     .image-slider_image {
