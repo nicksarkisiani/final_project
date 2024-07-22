@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
     width: 133px;
     height: 123px;
 }
@@ -37,7 +37,93 @@
     animation-timing-function: linear;
     animation-duration: 7000ms;
     animation-fill-mode: forwards; 
+} */
+
+.animation {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    overflow: hidden;
+} 
+
+.logo {
+    margin: calc(50vh - (123px / 2)) 0;
+    width: 133px;
+    height: 123px;
+    overflow: hidden;
 }
+.logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inset(100% 0 0 0);
+    animation: revealImage 7s linear forwards;
+}
+
+@keyframes fillAction {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-5%);
+    }
+}
+@keyframes waveAction {
+    0% {
+        transform: translateX(-150px);
+    }
+    100% {
+        transform: translateX(150px);
+    }
+}
+@keyframes revealImage {
+    0% {
+        clip-path: inset(100% 0 0 0);
+    }
+    100% {
+        clip-path: inset(0 0 0 0); 
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes revealImage {
+    0% {
+        clip-path: inset(100% 0 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes waveAction {
+
+    0%,
+    100% {
+        transform: translateY(100%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+}
+
+
 
 .animation__none {
     display: none !important;
