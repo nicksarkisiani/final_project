@@ -1,4 +1,4 @@
-const container = document.querySelector('.main')
+const container = document.querySelector('.container') || document.querySelector('.main')
 const header = document.getElementsByClassName('header')[0]
 const headerHover = document.getElementsByClassName('header__hover')[0]
 const headerNav = document.getElementsByClassName('header__nav')[0]
