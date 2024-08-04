@@ -58,3 +58,7 @@
     }
   }
 
+.animation video{
+  width: 460px;
+  height: auto;
+}

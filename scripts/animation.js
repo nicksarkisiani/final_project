@@ -14,5 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         animation[0].classList.add('animation__none')
         mainContainer.classList.remove('hidden')
-    }, 7000);
+    }, 5200);
 });
