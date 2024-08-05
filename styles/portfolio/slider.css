@@ -306,8 +306,10 @@
     }
 
     .swiper-button-close {
-        left: calc((100% - 300px)* 0.5 + 281px);
+        left: calc((100% - 300px)* 0.5 + 287px);
         top: 17px;
+        width: 13.5px;
+        height: 13.5px;
     }
 }
 
