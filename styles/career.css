@@ -35,6 +35,11 @@
     color: #565656;
 }
 
+.career__error {
+    color: red;
+    font-size: 25px;
+}
+
 .career__job a {
     display: flex;
     flex-direction: row;
