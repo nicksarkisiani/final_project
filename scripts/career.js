@@ -23,7 +23,8 @@ async function handleJobs ()  {
 }
 
 const fetchJobs = async () => {
-    const localStorageJobs = JSON.parse(localStorage.getItem("jobs"));
+    let localStorageJobs;
+    if(document.cookie.includes('isActive')) localStorageJobs = JSON.parse(localStorage.getItem("jobs"));
 
     if (!Array.isArray(localStorageJobs) || localStorageJobs.length === 0) {
         const res = await fetch(`${API_URL}?count=${MAX_COUNT}`);
@@ -33,7 +34,7 @@ const fetchJobs = async () => {
             return null;
         }
 
-        localStorage.setItem("jobs", JSON.stringify(jobs));
+        if(document.cookie.includes('isActive')) localStorage.setItem("jobs", JSON.stringify(jobs));
         return jobs;
     }
 

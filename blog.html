@@ -10,10 +10,25 @@
     <link rel="stylesheet" href="styles/nullstyle.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/news.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="container">
+        <div class="wrapper-cookie">
+            <header class="header-cookie">
+                <i class="bx bx-cookie"></i>
+                <h2>Cookies Consent</h2>
+            </header>
+            <div class="data-cookie">
+                <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+            </div>
+            <div class="buttons-cookie">
+                <button class="button-cookie" id="acceptBtn">Accept</button>
+                <button class="button-cookie" id="declineBtn">Decline</button>
+            </div>
+        </div>
+
         <div class="header__hover"></div>
         <header class="header white_bg__header about_us__header">
             <a href="index.html" class="header__logo">
@@ -23,7 +38,7 @@
                 <a href="index.html" class="header__a">მთავარი</a>
                 <a href="portfolio.html" class="header__a">პორტფოლიო</a>
                 <a href="news.html" class="header__a">სიახლეები</a>
-                <a href="blog.html" class="header__a" id="a_active">ბლოგი</a>
+                <a href="blog.html" class="header__a a_active">ბლოგი</a>
                 <a href="about_us.html" class="header__a">ჩვენს შესახებ</a>
                 <a href="team.html" class="header__a">გუნდი</a>
                 <a href="career.html" class="header__a">კარიერა</a>
@@ -219,6 +234,7 @@
         </footer>
     </div>
     <script src="scripts/header.js"></script>
+    <script src="scripts/cookie.js"></script>
 </body>
 
 </html>
