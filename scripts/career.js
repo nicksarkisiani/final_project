@@ -45,7 +45,6 @@ const fetchJobs = async () => {
 function renderData (jobs)  {
     jobs.forEach(({jobTitle}) => {
         const title = decodeHTMLEntities(jobTitle);
-        console.log(title)
         const job = renderJobTitle(title);
         jobsContainer.appendChild(job);
 
