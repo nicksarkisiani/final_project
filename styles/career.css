@@ -44,6 +44,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    /*max-width: 60px;*/
+    /*width: 100%;*/
     gap: 6px;
     font-size: 14px;
     font-weight: 300;
@@ -128,6 +130,9 @@
     }
 
     .career__job a {
+        max-width: 60px;
+        width: 100%;
+
         font-size: 12px;
         line-height: 14.4px;
     }

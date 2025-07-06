@@ -44,12 +44,24 @@ const fetchJobs = async () => {
 
 function renderData (jobs)  {
     jobs.forEach(({jobTitle}) => {
-        const job = renderJobTitle(jobTitle);
+        const title = decodeHTMLEntities(jobTitle);
+        console.log(title)
+        const job = renderJobTitle(title);
         jobsContainer.appendChild(job);
 
     })
 
 }
+
+function decodeHTMLEntities (text) {
+    const txt = document.createElement("textarea");
+    txt.innerHTML = text;
+    let firstPass = txt.value;
+
+    txt.innerHTML = firstPass;
+    return txt.value;
+}
+
 
 function renderJobTitle(title) {
 
@@ -60,7 +72,7 @@ function renderJobTitle(title) {
     text.textContent = title;
 
     const button = document.createElement('a');
-    button.textContent = "Read More-->";
+    button.textContent = "Read More";
     button.href = "career/accountmanager.html"
 
     div.appendChild(text);
